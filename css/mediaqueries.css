@@ -44,6 +44,9 @@ nav{
   .menu-open{
     display: none;
   }
+  .box2{
+    display: block;
+  }
   .hr1{
     height:10%;
   }
