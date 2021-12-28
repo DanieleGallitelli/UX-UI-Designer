@@ -47,14 +47,15 @@ $("#why h2, #why h3").addClass("enter");},
 {
   offset: '80%'
 });
+// Section Company
 $("#company").waypoint(function(){
 $("#company h2, #company h3").addClass("enter");},
 {
   offset: '80%'
 });
-
-$(".box2").waypoint(function(){
-$(".box2 .text-icon-right").addClass("opacity-1");},
+$("#company .box2").waypoint(function(){
+$(".box2").addClass("animation-icon");
+},
 {
   offset: '60%'
 });
