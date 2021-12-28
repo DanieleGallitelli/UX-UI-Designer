@@ -1,0 +1,110 @@
+
+/*Buttons styling css files*/
+.call-to-action{
+  position: relative;
+  width: 300px;
+  margin: 25px auto;
+  transition: all 1s ease-in;
+  transition-delay: 0.5s;
+  opacity:0;
+ animation: button 2s ease-in-out;
+ animation-iteration-count: infinite;
+}
+#contact .call-to-action{
+  margin: auto 25px;
+}
+#contact .button-portfolio img, #work .button-portfolio img{
+  width: 50px;
+  left: 10px;
+  float: left;
+  position: relative;
+  top: -12px;
+}
+#contact .effect-brackets a::before, #work .effect-brackets a::before{
+margin-right: 2px;
+}
+.call-to-action:active .button-portfolio-under{
+  position: relative;
+  width: 304px;
+  height: 52px;
+  background-color: rgba(0,203,205,0);
+  -moz-box-shadow:inset -2px -2px 3px #009AC2;
+  -webkit-box-shadow: inset -2px -2px 3px #009AC2;
+  box-shadow: inset -2px -2px 3px #009AC2;
+}
+.button-portfolio{
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 49px;
+  display: block;
+  background-color: #0E0E0E;
+  border-radius: 10px;
+  padding-top:12px;
+  -moz-box-shadow:-3px -3px 4px var(--primary-color);
+  -webkit-box-shadow: -3px -3px 4px var(--primary-color);
+  box-shadow: -3px -3px 4px var(--primary-color);
+    z-index: 1;
+}
+.button-portfolio:active  /* Active links */{
+  background-color:#0E0E0E;
+  -moz-box-shadow:inset 4px 4px 6px #020202;
+  -webkit-box-shadow: inset 4px 4px 6px #020202;
+  box-shadow: inset 4px 4px 6px #020202;
+}
+.button-portfolio-under{
+  width: 300px;
+  height: 49px;
+  display: block;
+  background-color: #020202;
+  border-radius: 10px;
+  -moz-box-shadow: 3px 3px 4px #020202;
+  -webkit-box-shadow: 3px 3px 4px #020202;
+  box-shadow: 3px 3px 4px #020202;
+}
+.button-section-arrow, .button-section-arrow-footer {
+  margin: 75px 0 75px 0;
+  text-align: center;
+  opacity: 0;
+  position: relative;
+  top:0;
+  transition: all 1s ease-in;
+  transition-delay: 1s;
+  animation: arrow 1s ease-in;
+  animation-iteration-count: infinite;
+}
+.opacity-1{
+opacity: 1 !important;
+}
+.button-section-arrow:active .button-section-inverse img{
+  background-color: rgba(0,203,205,0);
+  -moz-box-shadow: inset -2px -2px 3px #009AC2;
+  -webkit-box-shadow: inset -2px -2px 3px #009AC2;
+  box-shadow: inset -2px -2px 3px #009AC2;
+}
+.button-section img{
+  position: absolute;
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #0e0e0e;
+  width: 48px;
+  -moz-box-shadow:-3px -3px 4px var(--primary-color);
+  -webkit-box-shadow: -3px -3px 4px var(--primary-color);
+  box-shadow: -3px -3px 4px var(--primary-color);
+}
+.button-section-inverse img{
+  border-radius: 100%;
+  padding: 5px;
+  width: 50px;
+  -moz-box-shadow:3px 3px 4px #020202;
+  -webkit-box-shadow: 3px 3px 4px #020202;
+  box-shadow: 3px 3px 4px #020202;
+}
+.button-section img:active{
+  border-radius: 100%;
+  padding: 5px;
+  width: 48px;
+  -moz-box-shadow:inset 4px 4px 6px #020202;
+  -webkit-box-shadow: inset 4px 4px 6px #020202;
+  box-shadow: inset 4px 4px 6px #020202;
+}
