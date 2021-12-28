@@ -35,7 +35,6 @@
 .fullmenu ul li a {
 	text-decoration: none;
 	text-align:center;
-	display: block;
 	-webkit-transition: all .3s ease-in-out;
 	-o-otransition: all .3s ease-in-out;
 	-ms-transition: all .3s ease-in-out;
