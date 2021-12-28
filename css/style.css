@@ -58,6 +58,12 @@ h1 span /* special character "|" */{
   display: inline;
   text-shadow: none;
 }
+.box2{
+  display: flex;
+  opacity: 0;
+  width:100;
+  transition: all 0.5s ease-in-out;
+}
 h1{
   font-size: 48px;
   opacity: 0;
