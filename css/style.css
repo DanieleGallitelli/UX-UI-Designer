@@ -60,9 +60,12 @@ h1 span /* special character "|" */{
 }
 .box2{
   display: flex;
+  width:100%;
   opacity: 0;
-  width:100;
   transition: all 0.5s ease-in-out;
+}
+.box2 .text-icon-right{
+  opacity: 1;
 }
 h1{
   font-size: 48px;
