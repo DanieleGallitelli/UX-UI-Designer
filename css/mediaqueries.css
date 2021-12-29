@@ -32,6 +32,9 @@ header h2{
   .button-section-arrow {
     bottom:45% !important;
   }
+  header{
+    padding-top:200px;
+  }
   .text-icon-left, .text-icon-right, .text-icon-left-empty, .text-icon-right-empty {
     width: 60%;
   }
@@ -59,7 +62,7 @@ nav{
   .hr4m{
     height:43%;
   }
-   .hr5{
+  .hr5{
     height:56%;
   }
   .hr6m{
