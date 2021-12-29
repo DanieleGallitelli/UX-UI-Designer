@@ -160,11 +160,11 @@ p, a{
   opacity: 0;
   left:75px;
   position: relative;
-  -webkit-transition: all 0.5s 1s ease-in-out; /* Safari & Chrome */
-  -moz-transition: all 0.5s 1s ease-in-out; /* Firefox */
-  -ms-transition: all 0.5s 1s ease-in-out; /* Internet Explorer */
-  -o-transition: all 0.5s 1s ease-in-out; /* Opera */
-  transition: all 0.5s 1s ease-in-out;
+  -webkit-transition: all 0.5s 0.5s ease-in-out; /* Safari & Chrome */
+  -moz-transition: all 0.5s 0.5s ease-in-out; /* Firefox */
+  -ms-transition: all 0.5s 0.5s ease-in-out; /* Internet Explorer */
+  -o-transition: all 0.5s 0.5s ease-in-out; /* Opera */
+  transition: all 0.5s 0.5s ease-in-out;
 }
 .box-content-3{
   display: flex;
