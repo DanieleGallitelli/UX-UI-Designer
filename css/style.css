@@ -382,9 +382,6 @@ margin-bottom:0;
   display: block;
   margin-bottom: 50px;
 }
-#contact .box-content{
-  margin: 0 auto;
-}
 /*last section*/
 #copywriting{
   background-color: #262626;
@@ -394,4 +391,82 @@ margin-bottom:0;
 #copywriting p{
 width:65%;
 margin: 0 auto;
+}
+form{
+  display: block;
+  color:#f2f2f2;
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+#contact form label, input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: "FuturaStdBook";
+  box-sizing: border-box;
+}
+
+#contact form label {
+  margin: 70px 0 10px 0;
+  font-size: 18px;
+  text-align: center;
+  cursor:inherit;
+  font-family: "Futura Std", Lato, Arial;
+}
+#contact form textarea{
+  max-width:70%;
+  min-width: 70%;
+  font-weight: 600;
+  max-height: 300px;
+  border-radius: 25px;
+  min-height: 100px;
+  padding: 15px;
+  color:#f2f2f2;
+  background: #0e0e0e;
+  -moz-box-shadow:-3px -3px 4px var(--primary-color);
+  -webkit-box-shadow: -3px -3px 4px var(--primary-color);
+  box-shadow: -3px -3px 4px var(--primary-color);
+}
+#contact form input {
+  font-family: "Futura Std", Lato, Arial;
+  padding: 15px;
+  height: 50px;
+  display: inline-block;
+  width: 70%;
+  color:#f2f2f2;
+  border-radius: 50px;
+  border-radius: 20px;
+  font-weight: 600;
+  background: #0e0e0e;
+  -moz-box-shadow:-3px -3px 4px var(--primary-color);
+  -webkit-box-shadow: -3px -3px 4px var(--primary-color);
+  box-shadow: -3px -3px 4px var(--primary-color);
+}
+#contact .box-content{
+  display: block;
+  margin-bottom:125px;
+}
+#contact .button-portfolio{
+  margin-top: 0px;
+}
+#contact .call-to-action{
+  width:50%;
+}
+#contact .call-to-action.linkedin{
+  width:300px;
+}
+#contact form .button-section{
+  position: relative;
+}
+input[type=submit]{
+  margin-top: 30px;
+  margin-bottom: 125px;
+  cursor: pointer;
+  width: 70%;
+  font-size: 18px;
+}
+::placeholder{
+  opacity: 0.5;
 }

@@ -77,9 +77,6 @@ nav{
   .hamb{
     display: block !important;
   }
-  #contact .call-to-action{
-      margin: 50px auto !important;
-  }
   .button-section-arrow{
     display: none;
   }
@@ -190,6 +187,16 @@ nav{
         text-align: center;
         z-index: -1;
       }
+      input[type=submit], #contact form input, textarea {
+        width: 90%;
+      }
+      #contact .call-to-action {
+      width: 80%;
+}
+#contact form textarea{
+  max-width:90%;
+  min-width: 90%;
+}
 }
 /* Breakpoint-Tablet Orizzontali */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
