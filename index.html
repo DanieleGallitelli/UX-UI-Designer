@@ -16,6 +16,13 @@
         <title>UX|UI Designer - Daniele Gallitelli</title>
         <meta name="description" content="Il mio obiettivo è migliorare le interazioni e facilitare le azioni degli utenti sulle piattaforme digitali.">
         <meta property=”og:image” content="jpg/progetto-ux-ui-mobility.jpg" />
+          <!--Javascript (contact form)-->
+        <script  type ="text/javascript"  src ="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" ></script>
+      <script  type ="text/javascript" >
+      ( funzione () {
+      emailjs .init( " user_d6zA1QOZsVLbEniyUiJ3G " ) ;
+      })() ;
+      </script>
     </head>
     <body>
       <nav class="fullmenu">  <!-- Menu Mobile-->
@@ -379,13 +386,6 @@
     <script type="text/javascript" src="js/animation.js"></script>
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <!--Javascript (contact form)-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-       (function() {
-           // https://dashboard.emailjs.com/admin/integration
-           emailjs.init('d6zA1QOZsVLbEniyUiJ3G');
-       })();
-   </script>
    <script type="text/javascript">
    $(document).ready(function() {
        $('#upload').bind("click",function()
