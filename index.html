@@ -352,16 +352,25 @@
     <h3>Esponi la tua richiesta, sono sicuro che insieme faremo un bel lavoro.</h3>
     <div class="box-content">
       <div class="call-to-action">
- <form>
- <label>*Come ti chiami?</label>
- <input id="obbligatorio" type="text" name="name" placeholder="nome/azienda">
- <label>Inserisci il tuo numero di cellulare (facoltativo)</label>
- <input type="text" placeholder="telefono/whatsapp" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" />
- <label>*Scrivi la tua email</label>
- <input id="obbligatorio" type="email" name="email" placeholder="email">
- <label>*Esponi la tua richiesta</label>
- <textarea id="obbligatorio" name="messaggio" placeholder="in attesa di un tuo messaggio..."></textarea>
- <input class="button-section" type="submit" name="Invia" value="Invia la proposta di collaborazione">
+<form id="form">
+  <div class="field">
+    <label for="from_name">*Come ti chiami?</label>
+    <input type="text" name="from_name" id="from_name" id="obbligatorio" placeholder="nome/azienda">
+  </div>
+  <div class="field">
+    <label for="to_name">Inserisci il tuo numero di cellulare (facoltativo)</label>
+    <input type="text" placeholder="telefono/whatsapp" name="to_name" id="to_name" id="obbligatorio" onkeypress="return (event.charCode !=8 && event.charCode ==0
+    || (event.charCode >= 48 && event.charCode <= 57))" />
+  </div>
+  <div class="field">
+    <label for="email">*Scrivi la tua email</label>
+    <input type="text" name="email" id="email" id="obbligatorio" placeholder="email">
+  </div>
+  <div class="field">
+    <label for="message">*Esponi la tua richiesta</label>
+    <textarea name="message" placeholder="in attesa di un tuo messaggio..."></textarea>
+  </div>
+  <input class="button-section" type="submit" id="button" value="Invia la proposta di collaborazione">
 </form>
 </div></div>
 <p style="margin-top:75px;">Tocca il pulsante per vedere altre informazioni.</p>
@@ -387,29 +396,26 @@
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <!--Javascript (contact form)-->
    <script type="text/javascript">
-   var templateParams = {
-    name: 'GALLITELLI DANIELE UX|UI DESIGNER',
-    notes: 'Invio proposta di collaborazione!'
-};
-emailjs.send('service_96dmgyd', 'Collaborazione UX|UI')
-    .then(function(response) {
-       console.log('Email inviata con succeso!', response.status, response.text);
-    }, function(error) {
-       console.log('Invio fallito riprova...', error);
-    });
-   </script>
-   <script type="text/javascript">
-   $(document).ready(function() {
-       $('#upload').bind("click",function()
-       {
-           var imgVal = $('#obbligatorio').val();
-           if(imgVal=='')
-           {
-               alert("devi compilare tutti i moduli con il seguente simbolo *");
-               return false;
-           }
-       });
-   });
+   const btn = document.getElementById('button');
+
+ document.getElementById('form')
+  .addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    btn.value = 'Invio in corso...';
+
+    const serviceID = 'service_96dmgyd';
+    const templateID = 'Collaborazione UX|UI ';
+
+    emailjs.sendForm(serviceID, templateID, this)
+     .then(() => {
+       btn.value = 'Email inviata';
+       alert('Sent!');
+     }, (err) => {
+       btn.value = 'Email inviata';
+       alert(JSON.stringify(err));
+     });
+ });
    </script>
     </body>
 </html>
