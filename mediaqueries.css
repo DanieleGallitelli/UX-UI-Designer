@@ -1,0 +1,292 @@
+
+/* File MediaQueries */
+
+/* Breakpoint-Desktop*/
+@media screen and (min-width: 1024px) {
+  .menu-open{
+    display:block;
+  }
+  .menu-wrap{
+    display: none;
+  }
+  }
+/* Breakpoint-Desktop e laptop */
+@media screen and (max-width: 1366px){
+.box-content-2 .text-icon-right-2:first-child{
+  margin: 0px 0 0 90px;
+}
+.box-content-4 .text-icon-left-2{
+  width:80%;
+}
+}
+/* Breakpoint-laptop */
+@media screen and (min-width: 1366px) {
+header h2{
+  width:70%;
+}
+#company .box-content{
+  width: 80%;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .button-section-arrow {
+    bottom:45% !important;
+  }
+  header{
+    padding-top:200px;
+  }
+  .text-icon-left, .text-icon-right, .text-icon-left-empty, .text-icon-right-empty {
+    width: 60%;
+  }
+nav{
+  margin-bottom: 150px !important;
+}
+}
+/* Breakpoint-Tablet e Mobile*/
+@media screen and (max-width: 1023px) {
+  .menu-open{
+    display: none;
+  }
+  .box2{
+    display: block;
+  }
+  .hr1{
+    height:10%;
+  }
+  .hr2m{
+    height:21%;
+  }
+  .hr3{
+    height:32%;
+  }
+  .hr4m{
+    height:43%;
+  }
+  .hr5{
+    height:56%;
+  }
+  .hr6m{
+    height:67%;
+  }
+  .hr7{
+    height:83%;
+  }
+  .box-img{
+    margin: 0 30px;
+  }
+  .hamb{
+    display: block !important;
+  }
+  .button-section-arrow{
+    display: none;
+  }
+  .background-mobile, .background-left{
+    display: block;
+  }
+   .background-left{
+     display: none;
+   }
+  .background{
+    display: none;
+  }
+  h1 span{
+    display: block;
+  }
+  .special{
+    display: none;
+  }
+  .box-content{
+    display: block;
+  }
+  .text-icon-right-empty{
+    display: none;
+  }
+  .box-content-visible{
+    display: none;
+  }
+  .box-content-hidden{
+    display: block;
+  }
+  .text-icon-left h4, .text-icon-right h4,  .text-icon-left p, .text-icon-right p{
+      text-align: center;
+      width: 100%;
+    }
+    .icon-timeline{
+      margin: 100px auto 25px auto;
+    }
+    h1{
+      font-size: 40px;
+    }
+    header{
+      padding-top: 250px;
+    }
+      h2{
+        font-size: 30px;
+        width: 90% !important;
+      }
+      .box-content-4 .img-section img {
+    height: 100%;
+    margin: 50px 0;
+  }
+      h3{
+        width:90%;
+        font-size: 26px;
+      }
+      h4{
+        font-size: 23px;
+      }
+    hr{
+      z-index: -1;
+    }
+    .text-icon-right-2 h4, .text-icon-right-2 p, .box-content-5 h4, .box-content-5 p{
+      text-align: center;
+      width: 100%;
+    }
+    .img-section{
+      margin-left: 0;
+    }
+    .box-content-3{
+      display: block;
+    }
+    .box-content-3 img{
+    max-width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .box-content-2 .text-icon-right-2{
+      margin:50px !important;
+    }
+    .box-content-2 .text-icon-right-2:first-child {
+        margin-bottom: 75px !important;
+      }
+    .box-content-2 {
+      margin-top: 100px;
+    }
+    .box-content-4{
+      width: 100%;
+        display: block;
+    }
+    .box-content-4 .text-icon-left-2 {
+        text-align: center;
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box-content-5 .icon-timeline {
+        display: inherit;
+        width: auto;
+      }
+      .project{
+        display: block;
+      }
+      .text-icon-left, .text-icon-right{
+        padding: 40px 0px;
+        margin: 0px auto 10px auto;
+        display: block;
+        background-color: #0e0e0e;
+        text-align: center;
+        z-index: -1;
+      }
+      input[type=submit], #contact form input, textarea {
+        width: 90%;
+      }
+      #contact .call-to-action {
+      width: 80%;
+}
+#contact form textarea{
+  max-width:90%;
+  min-width: 90%;
+}
+}
+/* Breakpoint-Tablet Orizzontali */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.text-icon-left, .text-icon-right{
+  width: 60%;
+}
+.button-section-arrow {
+  bottom:8% !important;
+}
+}
+/* Breakpoint-Tablet Vericali */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+nav {
+margin-bottom: 200px;
+}
+}
+  @media screen and (max-width: 767px){
+      /* Breakpoint-Tablet verticali e Mobile */
+      h1{
+        font-size: 34px;
+      }
+      header{
+        padding-top:150px;
+      }
+      .section{
+        padding: 75px 0;
+      }
+      .button-section-arrow {
+        bottom:0% !important;
+      }
+        header h2, h2{
+          font-size: 24px;
+          width: 90%;
+        }
+        h3{
+          font-size:22px;
+          width: 80%;
+          margin: 25px auto 75px auto;
+        }
+        h4{
+          font-size:20px;
+        }
+        p{
+          font-size:18px;
+        }
+        li a{
+          font-size:22px;
+        }
+  .text-icon-left, .text-icon-right{
+    width: 90%;
+  }
+  .box-content-3 img {
+    max-width: 100%;
+}
+#company .box-content {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  #company img {
+    padding: 25px 0;
+  }
+  .box-content-4 .text-icon-left-2{
+    width:80%;
+    margin: 75px auto;
+  }
+  .project a{
+    margin-bottom:5px;
+  }
+  .project img{
+    padding:0;
+  }
+  #contact .icon-timeline {
+    margin: 75px auto;
+    display: block;
+  }
+}
+  /* Breakpoint Mobile */
+@media screen and (max-width: 479px){
+nav {
+    margin-bottom: 150px;
+}
+}
+/* Breakpoint Mobile */
+@media screen and (max-width: 360px){
+  .background-mobile, .background-left{
+    display: none;
+  }
+  .button-section-arrow{
+    display: block;
+  }
+}
