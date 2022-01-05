@@ -387,6 +387,18 @@
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <!--Javascript (contact form)-->
    <script type="text/javascript">
+   var templateParams = {
+    name: 'GALLITELLI DANIELE UX|UI DESIGNER',
+    notes: 'Invio proposta di collaborazione!'
+};
+emailjs.send('default_service', 'Collaborazione UX|UI')
+    .then(function(response) {
+       console.log('Email inviata con succeso!', response.status, response.text);
+    }, function(error) {
+       console.log('Invio fallito riprova...', error);
+    });
+   </script>
+   <script type="text/javascript">
    $(document).ready(function() {
        $('#upload').bind("click",function()
        {
@@ -398,18 +410,6 @@
            }
        });
    });
-   </script>
-   <script type="text/javascript">
-   var templateParams = {
-    name: 'GALLITELLI DANIELE UX|UI DESIGNER',
-    notes: 'Invio proposta di collaborazione!'
-};
-emailjs.send('service_96dmgyd', 'Collaborazione UX|UI ', templateParams)
-    .then(function(response) {
-       console.log('Email inviata con succeso!', response.status, response.text);
-    }, function(error) {
-       console.log('Invio fallito riprova...', error);
-    });
    </script>
     </body>
 </html>
