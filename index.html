@@ -404,15 +404,15 @@
 
     btn.value = 'Invio in corso...';
 
-    const serviceID = 'service_96dmgyd';
+    const serviceID = 'default_service';
     const templateID = 'Collaborazione UX|UI ';
 
     emailjs.sendForm(serviceID, templateID, this)
      .then(() => {
-       btn.value = 'Email inviata';
+       btn.value = 'Send Email';
        alert('Sent!');
      }, (err) => {
-       btn.value = 'Email inviata';
+       btn.value = 'Send Email';
        alert(JSON.stringify(err));
      });
  });
