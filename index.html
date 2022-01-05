@@ -17,12 +17,10 @@
         <meta name="description" content="Il mio obiettivo è migliorare le interazioni e facilitare le azioni degli utenti sulle piattaforme digitali.">
         <meta property=”og:image” content="jpg/progetto-ux-ui-mobility.jpg" />
           <!--Javascript (contact form)-->
-        <script  type ="text/javascript"  src ="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" ></script>
-      <script  type ="text/javascript" >
-      ( funzione () {
-      emailjs .init( " user_d6zA1QOZsVLbEniyUiJ3G " ) ;
-      })() ;
-      </script>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('user_d6zA1QOZsVLbEniyUiJ3G')
+    </script>
     </head>
     <body>
       <nav class="fullmenu">  <!-- Menu Mobile-->
@@ -355,11 +353,11 @@
 <form id="form">
   <div class="field">
     <label for="from_name">*Come ti chiami?</label>
-    <input type="text" name="from_name" id="from_name" placeholder="nome/azienda">
+    <input type="text" name="from_name" id="to_name" placeholder="nome/azienda">
   </div>
   <div class="field">
     <label for="to_name">Inserisci il tuo numero di cellulare (facoltativo)</label>
-    <input type="text" placeholder="telefono/whatsapp" name="to_name" id="to_name" />
+    <input type="text" placeholder="telefono/whatsapp" name="telefono" id="to_name" />
   </div>
   <div class="field">
     <label for="email">*Scrivi la tua email</label>
