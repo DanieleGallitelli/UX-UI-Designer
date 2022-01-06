@@ -80,12 +80,6 @@ $("#contact h2, #contact h3").addClass("enter");},
 	{
 		offset: '100%'
   });
-  $("#timeline .call-to-action").waypoint(function(){
-  $("#timeline .call-to-action, .button-portfolio").addClass("opacity-1");
-},
-  {
-    offset: '100%'
-  });
   $(".background").waypoint(function(){
   $(".background, .background-mobile").addClass("opacity-1");
 },
@@ -97,6 +91,12 @@ $("#contact h2, #contact h3").addClass("enter");},
 },
   {
     offset: '50%'
+  });
+  $("#contact").waypoint(function(){
+  $("#contact .call-to-action.linkedin").addClass("opacity-1");
+},
+  {
+    offset: '100%'
   });
   $("#work .call-to-action").waypoint(function(){
   $("#work .call-to-action").addClass("opacity-1");
@@ -409,6 +409,12 @@ $(".box-content-3").addClass("enter-left-right");
   });
   $("#why #box-03 .cinquanta-2").waypoint(function(){
   $("#why #box-03 .cinquanta-2").addClass("enter-left-right");
+  },
+  {
+    offset: '80%'
+  });
+  $("#why .call-to-action").waypoint(function(){
+  $("#why .call-to-action").addClass("enter-left-right");
   },
   {
     offset: '80%'
