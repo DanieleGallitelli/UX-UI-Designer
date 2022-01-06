@@ -474,7 +474,6 @@ form{
 }
 input[type=submit]{
   margin-top: 30px;
-  margin-bottom: 125px;
   cursor: pointer;
   width: 70%;
   font-size: 18px;
