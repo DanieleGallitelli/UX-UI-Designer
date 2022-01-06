@@ -510,3 +510,19 @@ margin: 0 2% 0 2%;
 #why .box-content .text-icon-right-2 p, #why .box-content .text-icon-right-2 h4{
   margin: auto;
 }
+#why .box-content img{
+margin-left: 10%;
+height: 100px;
+}
+#why .box-content-logo{
+  margin-bottom: 20px;
+}
+.linea{
+  width: 80%;
+  position: relative;
+  border: none;
+  background-color:#4D4D4D;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 12px 10%;
+}

@@ -15,6 +15,14 @@
 .box-content-2 .text-icon-right-2:first-child{
   margin: 0px 0 0 90px;
 }
+.linea{
+    margin: 12px 0;
+}
+#why .box-content-logo img{
+  margin-right: 10%;
+  height: 80px;
+  margin-left: 0;
+}
 .box-content-4 .text-icon-left-2{
   width:80%;
 }
@@ -52,6 +60,18 @@ nav{
   .menu-open{
     display: none;
   }
+  .linea{
+      margin: 12px auto;
+  }
+  #why .box-content-logo{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #why .box-content-logo img {
+    margin-right: 10%;
+    height:100px;
+    margin-left: 10%;
+}
    #orizontal-line-1-mobile hr, #orizontal-line-2-mobile hr, #orizontal-line-3-mobile hr{
      display:block;
    }
