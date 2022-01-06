@@ -115,6 +115,9 @@ nav{
   .button-section-arrow{
     display: none;
   }
+  .visibile{
+    display: block;
+  }
   .background-mobile, .background-left{
     display: block;
   }
@@ -226,7 +229,7 @@ nav{
         width: 90%;
       }
       #contact .call-to-action {
-      width: 80%;
+      width: 90%;
 }
 #contact form textarea{
   max-width:90%;

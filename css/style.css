@@ -483,7 +483,8 @@ input[type=submit]{
 }
 #why .cinquanta-1{
   width:100%;
-  left:-100%;
+  left:-75px;
+  opacity: 0;
   margin:none;
   -webkit-transition: all 0.5s ease-in-out; /* Safari & Chrome */
   -moz-transition: all 0.5s ease-in-out; /* Firefox */
@@ -493,7 +494,8 @@ input[type=submit]{
 }
 #why .cinquanta-2{
   width:100%;
-  left:100%;
+  left:75px;
+  opacity: 0;
   margin:none;
   -webkit-transition: all 0.5s ease-in-out; /* Safari & Chrome */
   -moz-transition: all 0.5s ease-in-out; /* Firefox */
@@ -501,10 +503,14 @@ input[type=submit]{
   -o-transition: all 0.5s ease-in-out; /* Opera */
   transition: all 0.5s ease-in-out;
 }
+#why .box-content{
+    overflow: hidden;
+}
 #why .box-content .text-icon-right-2{
 width: 50%;
 position: relative;
 margin: 0 2% 0 2%;
+overflow: hidden;
 }
 #why .box-content .text-icon-right-2 p, #why .box-content .text-icon-right-2 h4{
   margin: auto;
@@ -524,4 +530,7 @@ height: 100px;
   border-radius: 5px;
   padding: 2px;
   margin: 12px 10%;
+}
+.tasto{
+  margin:225px 5% 0 5%;
 }
