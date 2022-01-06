@@ -60,6 +60,18 @@ nav{
   .menu-open{
     display: none;
   }
+  #copywriting{
+  padding-bottom: 0px;
+  }
+  .section.contact-no{
+    padding: 0;
+    margin: 0;
+  }
+  .social-mobile{
+    width: 45px;
+    display: block;
+    margin: 0 auto;
+  }
   .linea{
       margin: 12px auto;
   }

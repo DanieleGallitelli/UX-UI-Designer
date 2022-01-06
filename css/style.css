@@ -397,12 +397,26 @@ margin-bottom:0;
 /*last section*/
 #copywriting{
   background-color: #262626;
-  padding: 25px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-bottom: 0;
+  color:#f2f2f2;
+  text-align: center;
 }
 #copywriting p{
 width:65%;
 margin: 0 auto;
+}
+#copywriting a{
+  font-size:16px;
+  margin: 0 10px;
+}
+#copywriting a:hover{
+  color: var(--primary-color);
+}
+.contact-no{
+  padding:0;
+  margin: 0;
 }
 form{
   display: block;
@@ -522,6 +536,9 @@ height: 100px;
 #why .box-content-logo{
   margin-bottom: 20px;
 }
+#why .call-to-action{
+  margin-top: 75px;
+}
 .linea{
   width: 80%;
   position: relative;
@@ -533,4 +550,23 @@ height: 100px;
 }
 .tasto{
   margin:225px 5% 0 5%;
+}
+.social{
+  position: absolute;
+  top: 10px;
+  right: 0%;
+  width: 45px;
+}
+.social-mobile{
+  width: 45px;
+  display: none;
+}
+.logo{
+  position: absolute;
+  top: 9px;
+  left: 0%;
+  width: 45px;
+}
+.logo-mobile{
+  width: 45px;
 }
