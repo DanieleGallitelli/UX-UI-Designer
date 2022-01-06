@@ -7,8 +7,8 @@
   transition: all 1s ease-in;
   transition-delay: 0.5s;
   opacity:0;
- animation: button 2s ease-in-out;
- animation-iteration-count: infinite;
+  animation: button 2s ease-in-out;
+  animation-iteration-count: infinite;
 }
 #contact .button-portfolio img, #work .button-portfolio img{
   width: 50px;
