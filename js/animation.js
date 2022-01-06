@@ -80,6 +80,12 @@ $("#contact h2, #contact h3").addClass("enter");},
 	{
 		offset: '100%'
   });
+  $("#timeline .call-to-action").waypoint(function(){
+  $("#timeline .call-to-action, .button-portfolio").addClass("opacity-1");
+},
+  {
+    offset: '100%'
+  });
   $(".background").waypoint(function(){
   $(".background, .background-mobile").addClass("opacity-1");
 },
