@@ -18,7 +18,12 @@
 .box-content-4 .text-icon-left-2{
   width:80%;
 }
+#why .box-content .text-icon-right-2 p, #why .box-content .text-icon-right-2 h4{
+  width:100%;
 }
+#why .box-content .text-icon-right-2{
+margin: 0 7% 0 7%;
+}}
 /* Breakpoint-laptop */
 @media screen and (min-width: 1366px) {
 header h2{
@@ -46,6 +51,16 @@ nav{
 @media screen and (max-width: 1023px) {
   .menu-open{
     display: none;
+  }
+   #orizontal-line-1-mobile hr, #orizontal-line-2-mobile hr, #orizontal-line-3-mobile hr{
+     display:block;
+   }
+  #why .box-content .text-icon-right-2 p, #why .box-content .text-icon-right-2 h4{
+    margin:none;
+  }
+  #why .box-content .text-icon-right-2{
+    width:80%;
+    margin:auto;
   }
   .box2{
     display: block;
