@@ -495,6 +495,14 @@ input[type=submit]{
 ::placeholder{
   opacity: 0.5;
 }
+#why .cinquanta-0{
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out; /* Safari & Chrome */
+  -moz-transition: all 0.5s ease-in-out; /* Firefox */
+  -ms-transition: all 0.5s ease-in-out; /* Internet Explorer */
+  -o-transition: all 0.5s ease-in-out; /* Opera */
+  transition: all 0.5s ease-in-out;
+}
 #why .cinquanta-1{
   width:100%;
   left:-75px;
