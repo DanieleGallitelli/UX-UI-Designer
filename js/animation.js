@@ -377,6 +377,12 @@ $(".box-content-3").addClass("enter-left-right");
   {
     offset: '50%'
   });
+  $("#why #box-01 .cinquanta-0").waypoint(function(){
+  $("#why #box-01 .cinquanta-0").addClass("opacity-1");
+  },
+  {
+    offset: '80%'
+  });
   $("#why #box-01 .cinquanta-1").waypoint(function(){
   $("#why #box-01 .cinquanta-1").addClass("enter-left-right");
   },
@@ -385,6 +391,12 @@ $(".box-content-3").addClass("enter-left-right");
   });
   $("#why #box-01 .cinquanta-2").waypoint(function(){
   $("#why #box-01 .cinquanta-2").addClass("enter-left-right");
+  },
+  {
+    offset: '80%'
+  });
+  $("#why #box-02 .cinquanta-0").waypoint(function(){
+  $("#why #box-02 .cinquanta-0").addClass("opacity-1");
   },
   {
     offset: '80%'
